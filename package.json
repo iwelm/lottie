@@ -10,7 +10,9 @@
     "start": "cross-env NODE_ENV=development gulp --openssl-legacy-provider",
     "build": "cross-env NODE_ENV=production gulp --openssl-legacy-provider build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lottie-web": "^5.12.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.22.10",

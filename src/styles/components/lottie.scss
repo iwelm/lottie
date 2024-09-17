@@ -10,4 +10,10 @@ body {
     h1 {
         margin: 0;
     }
+
+    #lottie-container {
+        width: 300px; // Largeur du conteneur
+        height: 300px; // Hauteur du conteneur
+        margin: 0 auto; // Centrer le conteneur horizontalement
+    }
 }
