@@ -14,7 +14,7 @@ new Main();
 import lottie from 'lottie-web';
 
 // Chemin vers votre fichier JSON d'animation Lottie
-const animationPath = '../assets/lottie/logo.json'; // Assurez-vous que ce chemin est correct
+const animationPath = 'assets/lottie/logo.json'; // Assurez-vous que ce chemin est correct
 
 // Récuperer le contenuer HTML du lottie et l'assigner a une variable
 let element = document.querySelector('.lottie-container');
