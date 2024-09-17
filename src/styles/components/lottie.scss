@@ -2,18 +2,11 @@ body {
     background-color: var(--color-black);
     height: inherit;
     width: inherit;
+    overflow: hidden;
     section {
-        position: absolute;
-        top: 25em;
-        right: 50%;
-    }
-    h1 {
-        margin: 0;
-    }
-
-    #lottie-container {
-        width: 300px; // Largeur du conteneur
-        height: 300px; // Hauteur du conteneur
-        margin: 0 auto; // Centrer le conteneur horizontalement
+        #lottie-container {
+            width: 100%; // Largeur du conteneur
+            height: 100%; // Hauteur du conteneur
+        }
     }
 }
