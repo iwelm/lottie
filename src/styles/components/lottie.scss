@@ -2,9 +2,9 @@ body {
     background-color: var(--color-black);
     height: inherit;
     width: inherit;
-    overflow: hidden;
+
     section {
-        #lottie-container {
+        .lottie-container {
             width: 100%; // Largeur du conteneur
             height: 100%; // Hauteur du conteneur
         }
