@@ -1,0 +1,13 @@
+body {
+    background-color: var(--color-black);
+    height: inherit;
+    width: inherit;
+    section {
+        position: absolute;
+        top: 25em;
+        right: 50%;
+    }
+    h1 {
+        margin: 0;
+    }
+}

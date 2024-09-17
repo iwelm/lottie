@@ -1,0 +1,13 @@
+/* ==========================================================================
+   FONTS / SETTINGS
+   ========================================================================== */
+/// Font family
+:root {
+    --font-primary: 'Source Code Pro', monospace;
+    --font-secondary: 'Source Code Pro', monospace;
+
+    --font-size-content: #{typo(16px, 18px)};
+
+    /// Grosseur des textes
+    --font-size-h1: #{typo(28px, 42px)};
+}
